@@ -19,6 +19,7 @@ body{
       background: #343a40;
       color: bisque;
       font-family: 'Aboreto', cursive;
+      overflow-x: hidden;
 }
 
 .btn{
@@ -276,14 +277,15 @@ section{
       height: 100vh;
       margin-top: 5rem;
       padding: 1rem;
-      
+      text-align: center;
 
 
 }
 
-section .fades{
+section  .fades{
       display: flex;
       align-items: center;
+      text-align: center;
       justify-content: center;
       text-align: center;
       position: absolute;
@@ -291,6 +293,10 @@ section .fades{
       color: bisque;
       opacity: 0.1;
       font-size: 10rem;
+}
+
+section  .fadesBox{
+      text-align: center;
 }
 
 section .knw {
@@ -315,6 +321,7 @@ section .knw .know{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      height: 100vh;
       background-image: url(/Images/wahala.jpg);
       background-size: cover;
       background-attachment: fixed;
@@ -765,6 +772,19 @@ footer{
             display: none;
       }
 
+      section .fades{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: absolute;
+            margin-top: 0.5rem;
+            color: bisque;
+            opacity: 0.1;
+            font-size: 7rem;
+            align-self: center;
+      }
+
       .container{
             grid-template-columns: auto ;
       }
@@ -797,6 +817,16 @@ footer{
             color: #eae2b7;
             padding: 0.5rem;
             display: none;
+      }
+
+      nav .logo >a{
+            color: #8f2d56;
+            font-size: 2rem;
+      }
+      
+      
+      nav .logo >a span{
+            color:#606c38;
       }
 
       .sectTwo .intr .mehn{
