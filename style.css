@@ -22,7 +22,7 @@ body{
 }
 
 .btn{
-    background: #051923;
+    background: #495057;
       /*background: #d4a373;
       */color: bisque;
       font-family: 'Poppins', sans-serif;
@@ -63,6 +63,7 @@ nav .logo >a{
       color: #8f2d56;
 }
 
+
 nav .logo >a span{
       color:#606c38;
 }
@@ -75,6 +76,24 @@ nav .navList > a{
 nav .navList a:hover{
       background-color: #343a40;
       padding: 1.5rem;
+}
+nav .boton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+nav .boton a{
+      /* background: #051923; */
+      /*background: #d4a373;
+      */color: bisque;
+      font-family: 'Poppins', sans-serif;
+      padding: 1rem;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
 }
 
 /*********** CONTAINER *****************/
@@ -771,5 +790,15 @@ footer{
             letter-spacing: 0.1rem;
             box-shadow: 0rem 1.2rem 2rem rgba(0, 0, 0, 0.2) ;
             z-index: 10;
+      }
+
+      nav .navList > a{
+            color: #eae2b7;
+            padding: 0.5rem;
+            display: none;
+      }
+
+      .sectTwo .intr .mehn{
+            display: none;
       }
 }
