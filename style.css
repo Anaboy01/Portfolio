@@ -726,6 +726,7 @@ footer{
 /* ================PHONE RESIZING============ */
 
 @media screen and (max-width: 1200px){
+
       .left{
             display: none;
       }
@@ -800,5 +801,16 @@ footer{
 
       .sectTwo .intr .mehn{
             display: none;
+      }
+
+      .skil .ski .box i{
+            display: none;
+            color: #051923;
+            font-size: 40px;
+            padding: 0.3rem;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 3px gray;
       }
 }
