@@ -322,7 +322,7 @@ section .knw .know{
       flex-direction: column;
       justify-content: center;
       height: 100vh;
-      background-image: url(/Images/wahala.jpg);
+      background-image: url(/Images/wahala.webp);
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -625,7 +625,7 @@ section .knw .know{
 /* =================PORTFOLIO================ */
 
 .sectFive{
-      background-image: url(/Images/plank.jpg);
+      background-image: url(/Images/plank.webp);
 }
 .sectFive .fades{
       opacity: 0.3;
