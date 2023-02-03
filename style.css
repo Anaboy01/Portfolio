@@ -354,25 +354,19 @@ section .knw .know{
 
  .heroPara
 {
-   
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-image: linear-gradient(    -225deg,    #231557 0%,    #44107a 29%,    #ff1361 67%,    #fff800 100%  );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  /* text-fill-color: transparent; */
-  -webkit-background-clip: text;
+  /*text-fill-color: transparent;
+  */-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 4rem;
+  font-size: 4rem;
+  -webkit-animation: textclip 2s linear infinite;
 }
 
 @keyframes textclip {
@@ -717,6 +711,7 @@ section .knw .know{
 
 .contc textarea{
       width: 90%;
+      font-size: 1rem;
 }
 
 .contc form div{
@@ -779,6 +774,10 @@ footer{
 
       .left{
             display: none;
+      }
+
+      section{
+            margin-right: 3rem;
       }
 
       section .fades{
@@ -869,8 +868,16 @@ footer{
             margin-top: 0.5rem;
             color: bisque;
             opacity: 0.1;
-            font-size: 3rem;
+            font-size: 5rem;
             align-self: center;
+      }
+
+      section .knw {
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+            align-items: center;
+            justify-content: center;
       }
 
       .secOne{
@@ -893,7 +900,7 @@ footer{
             text-align: justify;
       }
 
-      section .knw {
+      section .knw .know{
             font-size: 3.5rem;
             margin-top: 1rem;
             margin-bottom: 5rem;
@@ -901,13 +908,8 @@ footer{
             justify-content: left;
       }
       
-      section .knw .know{
-            display: flex;
-            align-items: left;
-            justify-content: left;
-            color: bisque;
-      
-            /* padding: 1rem; */
+      .sectTwo .intr{
+            width: 80%;
       }
             
       .do{
@@ -921,11 +923,11 @@ footer{
 
       .xp{
             display: grid;
-            justify-content: left;
-            align-items: left;
+            justify-content: center;
+            align-items: center;
             text-align: left;
             grid-template-columns: 1fr 1fr;
-            width: 50%;
+            width: 100%;
       }
 
       .xp div{
@@ -951,6 +953,10 @@ footer{
             gap: 2rem;
             margin-bottom: 1rem;
             font-family: 'Poppins', sans-serif;
+      }
+
+      .sectFour .exp div{
+            width: 80%;
       }
 
       .sectFour .skil{
