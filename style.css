@@ -855,8 +855,29 @@ footer{
 @media screen and (max-width: 560px){
       body{
             overflow: none;
+            text-align: left;
       }
 
+      section{
+            text-align: justify;
+      }
+
+      section .knw {
+            font-size: 3.5rem;
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+            align-items: left;
+            justify-content: left;
+      }
+      
+      section .knw .know{
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            color: bisque;
+      
+            /* padding: 1rem; */
+      }
             
       .do{
             display: grid;
@@ -908,9 +929,22 @@ footer{
 
       .contc{
             display: grid;
-            align-items: center;
+            align-items: left;
             justify-content: left;
             grid-template-columns: 1fr;
             gap: 2rem;
+      }
+
+      
+.contc .note{
+      display: flex;
+      align-items: left;
+      justify-content: left;
+}
+
+      .do .box{
+            display: flex;
+            gap: 1rem;
+            text-align: justify;
       }
 }
