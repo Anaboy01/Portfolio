@@ -278,7 +278,7 @@ main .container .left{
 
 section{
       height: 100vh;
-      width: 100vw;
+      width: 100%;
       margin-top: 5rem;
       padding: 1rem;
       text-align: center;
@@ -528,8 +528,9 @@ section .knw .know{
 
 .sectFour .skil{
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      gap: 3rem;
       padding-right: 2rem;
       margin: 1rem;
       margin-bottom: 2rem;
@@ -557,7 +558,7 @@ section .knw .know{
 }
 
 .skil .ski .bar{
-      width: 22rem;
+      width: 23rem;
       background-color: gray;
       height: 0.9rem;
       border-radius: 0.5rem;
@@ -715,7 +716,7 @@ section .knw .know{
 }
 
 .contc textarea{
-      width: 30rem;
+      width: 90%;
 }
 
 .contc form div{
@@ -908,6 +909,21 @@ footer{
             align-items: left;
             text-align: left;
             grid-template-columns: 1fr 1fr;
+            width: 50%;
+      }
+
+      .xp div{
+            text-align: center;
+            /* background: #051923; */
+            color: gray;
+            height: 100%;
+            width: 80%;
+            padding: 1rem  0.3rem;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
       }
 
       .sectFour .exp{
@@ -924,8 +940,9 @@ footer{
       .sectFour .skil{
             display: grid;
             justify-content: space-between;
-            align-items: center;
+            align-items: left;
             padding-right: 2rem;
+            gap: 1rem;
             margin: 1rem;
             margin-bottom: 2rem;
       }
