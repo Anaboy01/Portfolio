@@ -16,6 +16,7 @@
 
 
 body{
+      width: 100vw;
       background: #343a40;
       color: bisque;
       font-family: 'Aboreto', cursive;
@@ -769,7 +770,7 @@ footer{
       }
 }
 
-@media screen and (max-width: 998px){
+@media screen and (max-width: 1112px){
       body{
             overflow-x: hidden;
       }
@@ -853,6 +854,63 @@ footer{
 
 @media screen and (max-width: 560px){
       body{
-            overflow-x: hidden;
+            overflow: none;
+      }
+
+            
+      .do{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            font-family: 'Poppins', sans-serif;
+      }
+
+      .sectFour .exp{
+            margin-top: -2rem;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-family: 'Poppins', sans-serif;
+      }
+
+      .sectFour .skil{
+            display: grid;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 2rem;
+            margin: 1rem;
+            margin-bottom: 2rem;
+      }
+
+      .sectFive .port{
+            display: grid;
+            justify-content: center;
+            margin-top: 1rem;
+            align-items: center;
+            position: relative;
+            gap: 1rem;
+      }
+
+      .sectFive .port .pics{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 12rem;
+            border-radius: 1rem;
+            box-shadow: 0rem 1.2rem 2rem rgba(0, 0, 0, 0.6) ;
+      }
+
+      .contc{
+            display: grid;
+            align-items: center;
+            justify-content: left;
+            grid-template-columns: 1fr;
+            gap: 2rem;
       }
 }
