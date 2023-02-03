@@ -854,7 +854,7 @@ footer{
       }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 680px){
       body{
             overflow: none;
             text-align: left;
@@ -871,6 +871,22 @@ footer{
             opacity: 0.1;
             font-size: 3rem;
             align-self: center;
+      }
+
+      .secOne{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+            background-image: url(/Images/wahala.webp);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 3rem;
+            color: bisque;
+            font-family: 'Poppins', sans-serif;
       }
 
       section{
